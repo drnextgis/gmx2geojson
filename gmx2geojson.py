@@ -1,5 +1,3 @@
-#!env/bin/python
-
 import click
 import geojson
 
@@ -13,7 +11,7 @@ def main(input, output):
     """This script converts GeoMixer vector tile data to GeoJSON format.
 
     \b
-    Convert gmx.json to collection.geojson:
+    Convert input_fle.json to output_file.geojson:
         gmx2geojson input_fle.json output_file.geojson
     """
     source = geojson.load(input)
