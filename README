@@ -1,0 +1,4 @@
+Usage:
+
+  $ pip install --editable .
+  $ gmx2geojson input_file.json output_file.geojson
